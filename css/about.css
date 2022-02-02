@@ -1,0 +1,37 @@
+.about {
+  padding-bottom: 98px;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.about-card {
+  margin: auto;
+}
+.awesome-text {
+  text-align: center;
+}
+.about-card-content {
+  padding: 20px;
+}
+.about-card-img {
+  border: 1px solid #e72424;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 30px;
+  background-color: #fff;
+}
+.about-card-img img {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+}
+.about-card-title {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.about-card-text p {
+  text-align: center;
+}

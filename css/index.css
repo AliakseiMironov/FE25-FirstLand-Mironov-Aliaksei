@@ -1,0 +1,60 @@
+@import url(../css/cdn.css);
+@import url(../css/about.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+}
+section {
+  padding: 34px 0;
+  text-align: center;
+}
+.conteiner {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 68px 0;
+}
+h2 {
+  text-align: center;
+  font-family: "Raleway";
+  width: 450;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #333333;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+.awesome-block {
+  width: 64px;
+  height: 1px;
+  margin: auto;
+  background-color: #e72424;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.awesome-text p {
+  color: #86878b;
+  font-weight: 400;
+  font-size: 14px;
+}
