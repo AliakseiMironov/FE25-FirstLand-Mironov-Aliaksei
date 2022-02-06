@@ -1,13 +1,13 @@
-.about {
-  padding-bottom: 98px;
-}
 .about-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 0 -15px;
 }
 .about-card {
   margin: auto;
+  /* max-height: 225px; */
+  max-width: 350px;
 }
 .awesome-text {
   text-align: center;
@@ -29,9 +29,22 @@
   margin-top: 20px;
 }
 .about-card-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
   margin-bottom: 16px;
   text-align: center;
+  text-transform: capitalize;
 }
-.about-card-text p {
+.about-card-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
   text-align: center;
+  color: #000000;
 }
