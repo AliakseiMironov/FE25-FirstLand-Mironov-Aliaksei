@@ -1,5 +1,5 @@
 @import url(../css/cdn.css);
-@import url(../css/about.css);
+@import url(../css/avesome.css);
 
 * {
   padding: 0;
@@ -45,7 +45,7 @@ p {
   font-weight: 400;
   color: #000000;
 }
-.awesome-block {
+.line {
   width: 64px;
   height: 1px;
   margin: auto;
@@ -53,7 +53,7 @@ p {
   margin-top: 34px;
   margin-bottom: 34px;
 }
-.awesome-text p {
+.text p {
   color: #86878b;
   font-weight: 400;
   font-size: 14px;
