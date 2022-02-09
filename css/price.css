@@ -3,14 +3,14 @@
 }
 .table {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .pricing-card {
   width: 350px;
   /* margin: auto; */
   /* margin-bottom: 30px; */
-  margin: 0 15px;
+  margin: 0 5px;
 }
 .pricing-list-item__name {
   font-family: Open Sans;

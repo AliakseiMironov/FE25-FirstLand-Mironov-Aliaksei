@@ -2,6 +2,7 @@
 @import url(../css/awesome.css);
 @import url(../css/price.css);
 @import url(../css/feedback.css);
+@import url(../css/design.css);
 
 * {
   padding: 0;
@@ -49,4 +50,18 @@ section {
   font-size: 14px;
   text-align: center;
   margin-bottom: 68px;
+}
+.button {
+  width: 125px;
+  height: 42px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  /* padding: 11px 26px; */
+  border: 1px solid #ffffff;
+  cursor: pointer;
 }
