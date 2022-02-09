@@ -48,3 +48,6 @@
   text-align: center;
   color: #000000;
 }
+.word {
+  text-transform: lowercase;
+}
