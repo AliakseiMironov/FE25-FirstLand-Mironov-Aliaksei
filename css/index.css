@@ -1,6 +1,7 @@
 @import url(../css/cdn.css);
 @import url(../css/awesome.css);
 @import url(../css/price.css);
+@import url(../css/feedback.css);
 
 * {
   padding: 0;
@@ -15,7 +16,9 @@ html {
 section {
   padding: 80px 0;
 }
-.conteiner {
+.container {
+  position: relative;
+  z-index: 5;
   max-width: 1170px;
   padding: 0 15px;
   margin: 68px 0;
@@ -28,16 +31,17 @@ section {
   line-height: 42px;
   color: #212121;
   text-align: center;
-  margin: auto;
+  margin-bottom: 34px;
   text-transform: uppercase;
 }
-.line {
+.title h2::after {
+  display: block;
+  content: "";
   width: 64px;
   height: 1px;
   margin: auto;
   background-color: #e72424;
   margin-top: 34px;
-  margin-bottom: 34px;
 }
 .subtitle p {
   color: #86878b;
