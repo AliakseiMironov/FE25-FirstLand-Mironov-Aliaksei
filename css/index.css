@@ -1,6 +1,7 @@
+@import url(../css/header.css);
+@import url(../css/social.css);
 @import url(../css/awesome.css);
 @import url(../css/cdn.css);
-@import url(../css/header.css);
 @import url(../css/price.css);
 @import url(../css/feedback.css);
 @import url(../css/design.css);
@@ -22,13 +23,13 @@ section {
 }
 .container {
   position: relative;
-  z-index: 5;
+  z-index: 2;
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
 }
 .title h2 {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 36px;

@@ -1,0 +1,111 @@
+.social {
+  background-color: #f8efef;
+  padding: 15px 80px;
+}
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 360px;
+  /* margin-right: 130px; */
+  margin: auto 15px;
+}
+.social-text h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  text-transform: capitalize;
+}
+.social-text p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+
+.social-row {
+  /* max-width: 685px; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.social-link {
+  font-size: 34px;
+  margin-right: 55px;
+  /* padding: 5px; */
+}
+.social-link:last-child {
+  margin-right: 0;
+}
+.social_facebook {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_facebook:hover {
+  color: #3b5998;
+  transform: rotate(360deg);
+}
+
+.social_twitter {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_twitter:hover {
+  color: #00acee;
+  transform: rotate(360deg);
+}
+
+.social_google {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_google:hover {
+  color: #dd4b39;
+  transform: rotate(360deg);
+}
+
+.social_pinterest {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_pinterest:hover {
+  color: #e60023;
+  transform: rotate(360deg);
+}
+
+.social_instagram {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_instagram:hover {
+  color: #8a3ab9;
+  transform: rotate(360deg);
+}
+
+.social_stumbleupon {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_stumbleupon:hover {
+  color: #eb471d;
+  transform: rotate(360deg);
+}
+.social_whatsapp {
+  color: rgba(134, 135, 139, 0.3);
+  transition: 0.6s;
+}
+.social_whatsapp:hover {
+  color: #43d854;
+  transform: rotate(360deg);
+}

@@ -1,0 +1,27 @@
+.footer {
+  background-color: #000000;
+  padding-bottom: 15px;
+}
+
+.links-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 370px 18px;
+}
+.links__item {
+  color: rgba(255, 255, 255, 0.5);
+}
+.links__item:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: capitalize;
+}

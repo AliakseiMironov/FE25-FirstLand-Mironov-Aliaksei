@@ -10,14 +10,55 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <h1 class="main-title"></h1>
+      <div class="container header-conteiner">
+        <div class="header-logo">Ax</div>
+        <nav class="header-nav">
+          <a href="#" class="header-nav-item"><p>Feautures</p></a>
+          <a href="#" class="header-nav-item"><p>About</p></a>
+          <a href="#" class="header-nav-item"><p>Pricing</p></a>
+          <a href="#" class="header-nav-item"><p>Reviews</p></a>
+          <a href="#" class="header-nav-item"><p>Contact</p></a>
+        </nav>
       </div>
     </header>
+    <section class="social">
+      <div class="container social-container">
+        <div class="social-text">
+          <h2>Social media</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+            maxime ex maiores.
+          </p>
+        </div>
+        <div class="social-row">
+          <a class="social-link social_facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a class="social-link social_twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="social-link social_google">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <a class="social-link social_pinterest">
+            <i class="fab fa-pinterest"></i>
+          </a>
+          <a class="social-link social_instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="social-link social_stumbleupon">
+            <i class="fab fa-stumbleupon"></i>
+          </a>
+          <a class="social-link social_whatsapp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </section>
     <section class="awesome">
       <div class="container">
         <div class="title">
-          <h2>Why this is awesome</h2>
+          <h2 id="t1">Why this is awesome</h2>
         </div>
         <div class="subtitle">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -42,6 +83,7 @@
             <div class="about-card">
               <div class="about-card-content about-card-content__color">
                 <div class="about-card-img">
+                  <!-- <i class="fas fa-keyboard"></i> -->
                   <img src="./img/keyboard.png" alt="#" />
                 </div>
                 <h3 class="about-card-title">Well crafted</h3>
@@ -220,11 +262,45 @@
         <div class="subtitle">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
+        <div class="contact-wrap">
+          <ul class="contact-wrap-list">
+            <li><input type="text" />Name</li>
+            <li><input type="text" />Email</li>
+            <li><input type="text" />Password</li>
+            <li><input type="text" />Message</li>
+          </ul>
+        </div>
       </div>
     </section>
-
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <div class="links footer-links">
+          <div class="links-row">
+            <a class="links__item" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-pinterest"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-stumbleupon"></i>
+            </a>
+            <a class="links__item" href="#">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-text"><p>@ 2015 Axure themes</p></div>
+      </div>
     </footer>
   </body>
 </html>
