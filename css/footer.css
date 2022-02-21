@@ -2,22 +2,24 @@
   background-color: #000000;
   padding: 30px 0 15px;
 }
-
 .links-row {
   padding-bottom: 18px;
+  width: 310px;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-.links__item {
+.links__item a {
   color: rgba(255, 255, 255, 0.5);
   margin-right: 25px;
   transition: 0.3s;
 }
-.links__item:last-child {
+.links__item a:last-child {
   margin-right: -25px;
 }
-.links__item:hover {
+.links__item a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 .footer-text p {

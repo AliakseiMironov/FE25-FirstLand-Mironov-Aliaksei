@@ -1,0 +1,173 @@
+.firstscreen {
+  position: relative;
+  background-image: url(../img/firstscreen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstscreen::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.firstscreen-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.firstscreen-left {
+  width: 545px;
+  margin: 0 15px;
+}
+.firstscreen-logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.firstscreen-logo::after {
+  content: "It";
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ec7979;
+}
+
+.firstscreen-main-title h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+}
+.firstscreen-main-title h1::after {
+  display: block;
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+.firstscreen-subtitle {
+  width: 280px;
+}
+.firstscreen-subtitle p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 55px;
+  text-align: left;
+}
+.button.firstscreen-button {
+  display: block;
+  position: relative;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.button.firstscreen-button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #86878b;
+}
+
+.firstscreen-right {
+  width: 370px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.firstscreen-form-content {
+  padding: 20px 59px 55px;
+}
+
+.firstscreen-form-title h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  padding-bottom: 60px;
+  color: #333333;
+}
+.firstscreen-form-title span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #ec7979;
+}
+
+.firstscreen-form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.firstscreen-form-item:last-child {
+  padding-bottom: 0;
+}
+.firstscreen-form-item input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  color: #777777;
+  font-weight: normal;
+  font-size: 16px;
+  transition: 0.8s ease;
+}
+.firstscreen-form-item input:hover {
+  background-color: #d3d3d3;
+  transition: 0.8s ease;
+}
+.text-input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.form-button {
+  width: 100%;
+  height: 54px;
+  cursor: pointer;
+  background-color: #ec7979;
+  border: none;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  background-color: #d45c5c;
+  color: #ebe5e5;
+}

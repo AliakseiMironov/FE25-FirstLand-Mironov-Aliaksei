@@ -1,5 +1,7 @@
 @import url(../css/header.css);
+@import url(../css/firstscreen.css);
 @import url(../css/social.css);
+@import url(../css/tabs.css);
 @import url(../css/awesome.css);
 @import url(../css/cdn.css);
 @import url(../css/price.css);
@@ -16,7 +18,7 @@
   text-decoration: none;
 }
 html {
-  font-family: "Raleway", "Open Sans", sans-serif;
+  font-family: "Roboto", "Raleway", "Open Sans", sans-serif;
 }
 section {
   padding: 80px 0;

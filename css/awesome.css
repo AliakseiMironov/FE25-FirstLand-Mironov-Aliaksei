@@ -16,18 +16,17 @@
   padding: 20px;
 }
 .about-card-img {
-  border: 1px solid #e72424;
+  border: 1px solid #da4646;
   border-radius: 50%;
   height: 70px;
   width: 70px;
   margin: 0 auto 30px;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about-card-img img {
-  margin: auto;
-  display: block;
-  margin-top: 20px;
-}
+
 .about-card-title {
   font-family: Open Sans;
   font-style: normal;
@@ -51,8 +50,9 @@
 .word {
   text-transform: lowercase;
 }
-/* .fa-keyboard {
-  display: block;
-
-  color: blue;
-} */
+.awesome .fa-solid,
+.awesome .fa-brands,
+.awesome .fas {
+  font-size: 30px;
+  color: #e4a671;
+}
