@@ -16,8 +16,8 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   text-align: center;
   color: #86878b;
   margin-bottom: 22px;
@@ -53,24 +53,22 @@
 .feedback-row-item-customer-name {
   display: flex;
   flex-direction: column;
-  /* justify-content: end; */
   justify-content: space-evenly;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
   text-align: right;
   color: #333333;
   text-transform: capitalize;
-  /* padding-top: 8px; */
 }
 .feedback-row-item-customer-name_prof {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.6875rem;
   text-align: right;
   color: #86878b;
 }

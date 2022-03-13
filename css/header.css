@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   left: 0;
+  width: 100%;
   z-index: 3;
   padding: 20px 50px;
 }
@@ -10,17 +11,16 @@
 .header-row {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
-  /* margin: auto; */
 }
 .header-logo {
   width: 68px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.875rem;
+  line-height: 2.187rem;
   color: #ffffff;
   text-transform: uppercase;
   margin: 0 15px;
@@ -30,8 +30,8 @@
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 1.875rem;
+  line-height: 2.187rem;
   color: #ec7979;
   text-transform: uppercase;
 }
@@ -39,26 +39,21 @@
 .navigation-list {
   width: 490px;
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
-.navigation-list-item {
-  margin: 0 15px;
-}
-.navigation-list-item:last-child {
-  margin-right: -15px;
-}
 .navigation-list-item a {
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   text-align: center;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
   transition: 0.3s;
+  /* margin-left: 15px; */
 }
 
 .navigation-list-item a:hover {
@@ -73,7 +68,50 @@
   opacity: 0;
   margin-top: 3px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .navigation-list-item:hover::after {
   opacity: 1;
+}
+
+.burger-menu {
+  display: none;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger-menu span {
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 9px;
+  position: absolute;
+  transition: ease 0.5s;
+}
+
+.burger-menu span:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.burger-menu:before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0px;
+  position: absolute;
+}
+
+.burger-menu:after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  bottom: 0px;
+  position: absolute;
 }

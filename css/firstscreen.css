@@ -4,6 +4,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  padding-top: 155px;
 }
 .firstscreen::before {
   position: absolute;
@@ -17,20 +19,18 @@
 
 .firstscreen-row {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  flex-wrap: wrap;
 }
-.firstscreen-left {
-  width: 545px;
-  margin: 0 15px;
-}
+
 .firstscreen-logo {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 3.75rem;
+  line-height: 4.375rem;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 32px;
@@ -40,17 +40,19 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 3.75rem;
+  line-height: 4.375rem;
   color: #ec7979;
 }
-
+.firstscreen-main-title {
+  width: 545px;
+}
 .firstscreen-main-title h1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   color: #ffffff;
   text-transform: uppercase;
   text-align: left;
@@ -66,16 +68,15 @@
 }
 .firstscreen-subtitle {
   width: 280px;
+  margin-bottom: 55px;
 }
 .firstscreen-subtitle p {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  font-size: 1rem;
+  line-height: 1.1875rem;
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 55px;
   text-align: left;
 }
 .button.firstscreen-button {
@@ -98,23 +99,24 @@
 .firstscreen-form-content {
   padding: 20px 59px 55px;
 }
-
+.firstscreen-form-title {
+  margin-bottom: 60px;
+}
 .firstscreen-form-title h3 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   text-transform: capitalize;
-  padding-bottom: 60px;
   color: #333333;
 }
 .firstscreen-form-title span {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
   text-transform: uppercase;
   color: #ec7979;
 }
@@ -123,10 +125,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .firstscreen-form-item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .firstscreen-form-item input {
   outline: none;
@@ -135,19 +137,19 @@
   width: 100%;
   color: #777777;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1rem;
   transition: 0.8s ease;
 }
 .firstscreen-form-item input:hover {
   background-color: #d3d3d3;
   transition: 0.8s ease;
 }
-.text-input {
+.text-input label {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
   color: #bdbdbd;
 }
 
@@ -161,8 +163,8 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
   color: #ffffff;
   transition: 0.5s;
 }
